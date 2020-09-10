@@ -1,0 +1,350 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@font-face {
+    font-family: 'alba_superregular';
+    src: url('alba_font/albas___-webfont.woff2') format('woff2'),
+         url('alba_font/albas___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'alba_matterregular';
+    src: url('alba_font/albam___-webfont.woff2') format('woff2'),
+         url('alba_font/albam___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'albaregular';
+    src: url('alba_font/alba____-webfont.woff2') format('woff2'),
+         url('alba_font/alba____-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fbfcfd;
+}
+
+h1 {
+  font-family: 'albaregular';
+  color: #FFF386;
+  font-size: 3rem;
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  letter-spacing: .05em;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 0.5rem;
+}
+
+p, .card-contact {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+p, a {
+  color: #54595f;
+}
+
+hr {
+  max-width: 80%;
+  margin: 4rem auto;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #54595f;
+  padding: 0.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
+}
+
+header img {
+  max-width: 40px;
+}
+
+header a {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
+footer {
+  background-color: #51a8a0;
+  width: 100%;
+  color: #d2d2d2;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer p {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.navbar-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 1rem;
+}
+
+.banner {
+  text-align:center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.3)), to(rgba(0,0,0,0.3))), url("https://baladesencamargue.fr/wp-content/uploads/2017/07/petit-rhone_a19f48ce9c638c61b9c4e1d0d7f9ce02.jpg");
+  background-image: -o-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://baladesencamargue.fr/wp-content/uploads/2017/07/petit-rhone_a19f48ce9c638c61b9c4e1d0d7f9ce02.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://baladesencamargue.fr/wp-content/uploads/2017/07/petit-rhone_a19f48ce9c638c61b9c4e1d0d7f9ce02.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title {
+  padding: 2rem;
+}
+
+.card {
+  padding: 0 1.4rem;
+  margin-top: 1.2rem;
+}
+
+.card-infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+
+.card-infos img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 50%;
+  margin: 2rem auto;
+  margin-top: 3rem;
+  border-radius: 15px;
+}
+
+.card-infos-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+
+.card-infos-img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 60%;
+  margin: 1rem auto;
+  margin-top: 3rem;
+  border-radius: 15px;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #51a8a0;
+  color: white;
+  border-radius: 5px;
+  padding: 25px 40px;
+  font-family: "Lato";
+  font-size: 15px;
+  margin: 2rem 0rem;
+}
+
+.card-contact {
+  text-align: center;
+}
+
+.card-contact a {
+  margin-left: 0.4rem;
+  text-decoration: none;
+}
+
+.card-icon {
+  font-size: 6rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.mt4 {
+  margin-top: 3rem;
+}
+
+.mb6 {
+  margin-bottom: 3rem;
+}
+
+.center {
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  header {
+    padding: 1rem;
+  }
+
+  .navbar-menu {
+    padding-right: 1rem;
+  }
+
+  .navbar-menu a {
+    font-size: 14px;
+  }
+
+  header img {
+    width: 40px;
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .card-infos-img {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+
+  .card p a:hover {
+    color: #51a8a0;
+  }
+
+  .card-infos-img img {
+    max-width: 20%;
+    margin: 1rem 0;
+  }
+
+  .btn {
+    font-size: 15px;
+    font-weight: 600;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+  }
+
+  .btn:hover {
+    color: rgba(0,0,0,.7);
+    opacity: .65;
+  }
+
+  .card-contact a, .card-contact i {
+    font-size: 18px;
+  }
+
+  .card-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .card-flex-head {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 6rem;
+  }
+}
